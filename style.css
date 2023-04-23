@@ -3,6 +3,12 @@ body {
   }
   
   h1 {
-    color: navy;
-    margin-left: 20px;
+    color: rgb(33, 33, 120);
+    text-align: center;
+  }
+  p{
+    color: rgb(33, 33, 60);
+    margin: auto;
+    text-align: center;
+    width: 60%;
   }
