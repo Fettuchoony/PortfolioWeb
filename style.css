@@ -1,14 +1,40 @@
-body {
-    background-color: lightblue;
+  body {
+    background-color: rgb(236, 240, 223);
   }
   
   h1 {
     color: rgb(33, 33, 120);
     text-align: center;
   }
-  p{
+
+  h2 {
+    color: rgb(33, 33, 120);
+    size: 11px;
+    text-align: center;
+  }
+
+  p {
     color: rgb(33, 33, 60);
     margin: auto;
     text-align: center;
-    width: 60%;
+    width: 70%;
+  }
+
+  p2 {
+    color: rgb(33, 33, 60);
+  }
+
+  img {
+    text-align: center;
+  }
+
+  .container {
+    display:flex;
+    gap: 20px;
+    justify-content:center;
+  }
+
+  .item {
+    flex-basis: auto;
+    flex: .45;
   }
